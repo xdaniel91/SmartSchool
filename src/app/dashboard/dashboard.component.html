@@ -1,1 +1,6 @@
-<p>dashboard works!</p>
+<app-titulo [titulo] = "titulo"> </app-titulo>
+<ul>
+  <li *ngFor="let dashboardItem of dashboardItems">
+    {{ dashboardItem }}
+  </li>
+</ul>

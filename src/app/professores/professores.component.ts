@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ProfessoresComponent implements OnInit {
   titulo = 'Professores';
   public professores = [
-    { nome: 'lucas' },
-    { nome: 'marcos' },
-    { nome: 'eduardo' },
-    { nome: 'gabriel' },
+    { id: 1, nome: 'lucas', disciplina: 'portugues' },
+    { id: 2, nome: 'marcos', disciplina: 'matematica' },
+    { id: 3, nome: 'eduardo', disciplina: 'quimica' },
+    { id: 4, nome: 'gabriel', disciplina: 'fisica' }
   ];
 
   constructor() {}

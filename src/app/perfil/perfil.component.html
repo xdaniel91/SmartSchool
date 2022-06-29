@@ -1,1 +1,6 @@
-<p>perfil works!</p>
+<app-titulo [titulo]="titulo"> </app-titulo>
+<ul>
+  <li *ngFor="let item of perfilItems">
+    {{ item }}
+  </li>
+</ul>
